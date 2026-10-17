@@ -62,10 +62,4 @@ El backend SQLite local soporta seguimiento y registro de modelos en versiones a
 Abre `fuentes/entrena.ipynb` en Colab. El notebook instala dependencias, solicita subir el proyecto (o montar Drive), y lanza el mismo script para mantener la ejecución equivalente al modo local. Para descargar desde Kaggle en Colab se requieren credenciales Kaggle configuradas en el entorno.
 
 
-## Lectura de resultados
-
-
-No se incluyen resultados numéricos inventados: se generan al ejecutar sobre la versión disponible del dataset. Compara las métricas del conjunto de prueba entre las corridas de regresión y revisa en MLflow los parámetros ganadores y las métricas CV. R² puede ser bajo por tratarse de una variable objetivo discreta y limitada; interpreta esta regresión como ejercicio metodológico, no como inferencia causal ni pronóstico laboral validado.
-
-
 
