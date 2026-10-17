@@ -1,0 +1,42 @@
+{
+  "classification": {
+    "best_params": {
+      "model__C": 1.0,
+      "model__class_weight": "balanced"
+    },
+    "cv_f1": 0.5823403021557201,
+    "test": {
+      "accuracy": 0.674502712477396,
+      "precision": 0.5778688524590164,
+      "recall": 0.6467889908256881,
+      "f1": 0.6103896103896104,
+      "roc_auc": 0.7117212104614542
+    }
+  },
+  "regression": {
+    "linear_regression": {
+      "best_params": {
+        "model__fit_intercept": false
+      },
+      "cv_mae": 1.3790492237688032,
+      "test": {
+        "mae": 1.3868020677278607,
+        "rmse": 1.6200308853448497,
+        "r2": -0.0018245908236618202
+      }
+    },
+    "xgboost": {
+      "best_params": {
+        "model__learning_rate": 0.05,
+        "model__max_depth": 4,
+        "model__n_estimators": 100
+      },
+      "cv_mae": 0.9573299288749695,
+      "test": {
+        "mae": 0.9019455909729004,
+        "rmse": 1.3204587144417295,
+        "r2": 0.33442848920822144
+      }
+    }
+  }
+}
