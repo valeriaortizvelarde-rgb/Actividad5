@@ -103,8 +103,6 @@ El notebook crea estas carpetas dentro de `/content/Actividad5`:
 | `resultados_actividad5.zip` | Paquete descargable con el JSON, las gráficas y la base de MLflow local. |
 
 
-El ZIP se descarga a tu computadora; conserva ese archivo si quieres guardar la evidencia de la ejecución. Si usas un servidor MLflow remoto, el ZIP incluye el JSON y las gráficas; la base de seguimiento permanece en el servidor remoto.
-
 
 ## Cómo leer las métricas
 
