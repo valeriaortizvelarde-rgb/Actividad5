@@ -9,7 +9,7 @@ Este proyecto contiene un notebook de Google Colab que descarga y analiza un con
 
 | Archivo | Para qué sirve |
 |---|---|
-| `fuentes/entrena.ipynb` | Notebook que ejecuta todo el análisis: descarga, limpieza, gráficas, entrenamiento, evaluación y registro en MLflow. |
+| `Actividad5/entrena.ipynb` | Notebook que ejecuta todo el análisis: descarga, limpieza, gráficas, entrenamiento, evaluación y registro en MLflow. |
 | `Informe_Analisis_Modelado_MLflow.docx` | Informe Word que explica los datos y la metodología, y contiene tablas para documentar las métricas y la evidencia de MLflow. |
 | `README.md` | Estas instrucciones. |
 
