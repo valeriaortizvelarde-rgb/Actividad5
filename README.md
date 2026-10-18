@@ -1,4 +1,5 @@
 # Actividad 5: clasificación, regresión y seguimiento con MLflow
+# Valeria Ortiz Velarde
 Proyecto reproducible con el dataset [Employee Dataset de Kaggle](https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset).
 ## Estructura
 
@@ -59,7 +60,7 @@ El backend SQLite local soporta seguimiento y registro de modelos en versiones a
 ## Google Colab
 
 
-Abre `fuentes/entrena.ipynb` en Colab. El notebook instala dependencias, solicita subir el proyecto (o montar Drive), y lanza el mismo script para mantener la ejecución equivalente al modo local. Para descargar desde Kaggle en Colab se requieren credenciales Kaggle configuradas en el entorno.
+Abre `Actividad5/entrena.ipynb` en Colab. El notebook instala dependencias, solicita subir el proyecto (o montar Drive), y lanza el mismo script para mantener la ejecución equivalente al modo local. Para descargar desde Kaggle en Colab se requieren credenciales Kaggle configuradas en el entorno.
 
 
 
