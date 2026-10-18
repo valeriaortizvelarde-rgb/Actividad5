@@ -162,13 +162,4 @@ La cuenta debe tener permiso para crear experimentos y corridas, guardar modelos
 Las tablas de métricas y evidencia aparecen como **pendientes** hasta ejecutar el notebook. Después de la ejecución, usa `resultados.json` para completar las métricas y guarda la salida de validación o capturas de MLflow como evidencia. No reemplaces esos campos con cifras de ejemplo.
 
 
-## Supuestos y limitaciones
-
-
-- El notebook descarga la versión más reciente disponible del dataset; por eso dos ejecuciones en fechas distintas podrían no usar exactamente los mismos datos.
-- Los significados de algunas columnas se infieren de sus nombres y deben verificarse con los valores y la descripción de la versión descargada.
-- La eliminación de filas con nulos puede reducir la muestra; el informe debe anotar cuántas se descartaron tras ejecutar.
-- `PaymentTier` se trata como numérica ordinal. Conviene verificar si codificarla como categoría cambia el desempeño.
-- El análisis es académico y no valida el uso de estos modelos para tomar decisiones laborales reales. Se necesitarían evaluaciones adicionales de sesgo, privacidad, validez y supervisión humana.
-
 
