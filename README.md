@@ -45,7 +45,7 @@ La regresión es una tarea de práctica: este dataset no incluye salario ni otra
 ## Cómo ejecutar el notebook en Google Colab
 
 
-1. Abre Google Colab y carga `fuentes/entrena.ipynb`.
+1. Abre Google Colab y carga `Actividad5/entrena.ipynb`.
 2. En Colab, selecciona **Entorno de ejecución → Ejecutar todas** (o ejecuta las celdas una por una desde arriba).
 3. La primera celda instala las bibliotecas requeridas: KaggleHub, MLflow, scikit-learn, XGBoost, pandas, NumPy y Matplotlib.
 4. Cuando se solicite, autoriza el acceso a Kaggle. KaggleHub descarga la versión más reciente del dataset `tawfikelmetwally/employee-dataset`.
